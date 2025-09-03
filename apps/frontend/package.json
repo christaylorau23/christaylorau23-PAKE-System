@@ -1,0 +1,24 @@
+{
+  "name": "@pake/frontend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PAKE+ System Web Interface",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@pake/common": "workspace:*",
+    "@pake/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@pake/automation",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PAKE+ System Python Automation Services",
+  "scripts": {
+    "dev": "python -m src.main",
+    "test": "python -m pytest",
+    "lint": "python -m flake8 src",
+    "type-check": "python -m mypy src"
+  }
+}

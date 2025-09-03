@@ -1,0 +1,138 @@
+# PAKE+ Monorepo - Security & Build Artifacts
+
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production builds
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment files (SECURITY: Never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.*.template
+
+# Secrets and credentials
+secrets/
+credential-inventory.json
+*.key
+*.pem
+*.p12
+*.pfx
+api-keys/
+tokens/
+certificates/private/
+
+# Configuration files with sensitive data
+config/local.*
+config/production.*
+config/staging.*
+
+# Logs
+logs/
+*.log
+security-*.log
+*.log.bak
+
+# Database
+*.db
+*.sqlite
+*.sql.gz
+*.dump
+backup_*.sql
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Testing
+.jest/
+test-results/
+playwright-report/
+test-results/
+
+# IDEs and editors
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+*.tar
+
+# Turbo
+.turbo/
+
+# Backup files
+*.backup
+*.bak
+*~
+.#*
+#*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SSL certificates and keys
+ssl/
+certs/
+*.crt
+*.csr
+
+# Legacy and deprecated
+legacy/
+deprecated/
+old/
+archive/
+
+# Monorepo specific
+.rush/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
